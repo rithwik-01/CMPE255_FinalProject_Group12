@@ -1,0 +1,16 @@
+# Core deep learning stack (compatible with old .h5 models)
+tensorflow==2.13.0
+keras==2.13.1
+
+# Image and video processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==9.5.0
+
+# Keras utilities for preprocessing
+scipy==1.10.1
+h5py==3.8.0
+
+# Optional (for smooth running in notebooks or local IDEs)
+matplotlib==3.7.2
+jupyter==1.0.0

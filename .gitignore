@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Large datasets and generated splits (keep analysis PNGs)
+mask_dataset/
+data_split/*
+!data_split/_analysis/**
+
+# Temporary folders
+tmp_mask_repo/
+
+# Model binaries (provide separately)
+*.h5
+*.model
