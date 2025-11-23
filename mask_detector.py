@@ -79,13 +79,13 @@ while True:
         (mask_weared_incorrect, with_mask, without_mask) = pred
         # Select the label and color based on the highest probability.
         if (with_mask > without_mask and with_mask > mask_weared_incorrect):
-            label = "Mask Worn Properly :)"
+            label = "Mask OK"
             color = (0, 255, 0) 
         elif (without_mask > with_mask and without_mask > mask_weared_incorrect):
-            label = "No Mask! (please wear)"
+            label = "No Mask"
             color = (0, 0, 255)    
         else:
-            label = "Wear Mask Properly!"
+            label = "Mask Not Worn Correctly"
             color = (255, 140, 0)
         # Append the max class probability to the label for transparency.
         label = "{}: {:.2f}%".format(label,
